@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FE51E2FB1F72189F000D7DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE51E2FA1F72189F000D7DFA /* AppDelegate.swift */; };
-		FE51E2FD1F72189F000D7DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE51E2FC1F72189F000D7DFA /* ViewController.swift */; };
 		FE51E3001F72189F000D7DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE51E2FE1F72189F000D7DFA /* Main.storyboard */; };
 		FE51E3021F72189F000D7DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE51E3011F72189F000D7DFA /* Assets.xcassets */; };
 		FE51E3051F72189F000D7DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE51E3031F72189F000D7DFA /* LaunchScreen.storyboard */; };
 		FE51E30D1F7218B2000D7DFA /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE51E30C1F7218B2000D7DFA /* Algorithm.swift */; };
+		FE51E30F1F721BAA000D7DFA /* InputTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE51E30E1F721BAA000D7DFA /* InputTableViewController.swift */; };
+		FE51E3111F722032000D7DFA /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE51E3101F722032000D7DFA /* ResultTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE51E2F71F72189F000D7DFA /* CaesarCipherDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaesarCipherDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE51E2FA1F72189F000D7DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE51E2FC1F72189F000D7DFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE51E2FF1F72189F000D7DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE51E3011F72189F000D7DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE51E3041F72189F000D7DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE51E3061F72189F000D7DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE51E30C1F7218B2000D7DFA /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		FE51E30E1F721BAA000D7DFA /* InputTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTableViewController.swift; sourceTree = "<group>"; };
+		FE51E3101F722032000D7DFA /* ResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				FE51E2FA1F72189F000D7DFA /* AppDelegate.swift */,
-				FE51E2FC1F72189F000D7DFA /* ViewController.swift */,
 				FE51E30C1F7218B2000D7DFA /* Algorithm.swift */,
+				FE51E30E1F721BAA000D7DFA /* InputTableViewController.swift */,
+				FE51E3101F722032000D7DFA /* ResultTableViewController.swift */,
 				FE51E2FE1F72189F000D7DFA /* Main.storyboard */,
 				FE51E3011F72189F000D7DFA /* Assets.xcassets */,
 				FE51E3031F72189F000D7DFA /* LaunchScreen.storyboard */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE51E2FD1F72189F000D7DFA /* ViewController.swift in Sources */,
+				FE51E3111F722032000D7DFA /* ResultTableViewController.swift in Sources */,
+				FE51E30F1F721BAA000D7DFA /* InputTableViewController.swift in Sources */,
 				FE51E30D1F7218B2000D7DFA /* Algorithm.swift in Sources */,
 				FE51E2FB1F72189F000D7DFA /* AppDelegate.swift in Sources */,
 			);
